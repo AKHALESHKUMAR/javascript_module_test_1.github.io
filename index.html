@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header part-->
+    <header>
+        <div class="title">
+            <p>ROCK</p>
+            <p>PAPER</p>
+            <p>SCISSORS</p>
+        </div>
+
+        <div class="Score_box">
+            <div class="Score_div">
+                <p>
+                    COMPUTER <br />
+                    SCORE
+                </p>
+                <p class="score" id="Computer_score">0</p>
+            </div>
+            <div class="Score_div">
+                <p>
+                    YOUR <br />
+                    SCORE
+                </p>
+                <p class="score" id="Your_score">0</p>
+            </div>
+        </div>
+    </header>
+    <!-- header part end-->
+
+
+    <!-- Rules section -->
+    <div class="game_rule" id="game_rule">
+        <h2>Game Rules</h2>
+        <ul>
+            <li>
+                Rock beats scissors, scissors beat <br />
+                paper, and paper beats rock.
+            </li>
+            <li>
+                Agree ahead of time whether you’ll <br />
+                count off “rock, paper, scissors, <br />
+                shoot” or just “rock, paper, scissors.”
+            </li>
+            <li>
+                Use rock, paper, scissors to settle <br />
+                minor decisions or simply play to <br />
+                pass the time
+            </li>
+            <li>
+                If both players lay down the same<br />
+                hand, each player lays down another<br />
+                hand
+            </li>
+        </ul>
+        <!-- Close Rule button-->
+        <div class="close_rule" id="close_rule">X</div>
+    </div>
+
+
+    <!-- Rule button-->
+    <div class="rule_button" id="rule_button">RULES</div>
+
+
+    <!-- Next button-->
+    <a href="winner.html" class="next" id="next"> NEXT </a>
+    </div>
+
+
+    <!-- Main section -->
+    <main>
+        <div class="play_game">
+            <button id="rock" class="rock">
+                <div><img src="./images/rock.png" alt="" /></div>
+                <img src="./images/Line1.png" alt="" class="line1" />
+            </button>
+            <button id="scissor" class="scissor">
+                <div><img src="./images/scissor.png" alt="" /></div>
+                <img src="./images/Line2.png" alt="" class="line2" />
+            </button>
+            <button id="paper" class="paper">
+                <div><img src="./images/paper.png" alt="" /></div>
+                <img src="./images/Line3.png" alt="" class="line3" />
+            </button>
+        </div>
+    </main>
+    <!-- Main section end-->
+    <script src="script.js"></script>
+</body>
+
+</html>
